@@ -1,6 +1,6 @@
 # Seat Booking and Payment Process
 
-This document explains the complete process of user registration and seat booking in a step-by-step manner.
+See Demo :- .
 
 ## 📋 Process Steps
 
