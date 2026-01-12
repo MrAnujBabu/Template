@@ -1,36 +1,57 @@
-# सीट बुकिंग और पेमेंट प्रक्रिया
+# Seat Booking and Payment Process
 
-यह दस्तावेज़ उपयोगकर्ता पंजीकरण और सीट बुकिंग की पूरी प्रक्रिया को चरणबद्ध तरीके से समझाता है।
+This document explains the complete process of user registration and seat booking in a step-by-step manner.
 
-## 📋 प्रक्रिया के चरण
+## 📋 Process Steps
 
-### चरण 1: रजिस्ट्रेशन फॉर्म भरना और पेमेंट
-इस चरण में, उपयोगकर्ता से निम्नलिखित जानकारी एकत्र की जाती है और यूपीआई के माध्यम से भुगतान किया जाता है।
+### Step 1: Filling the Registration Form and Payment
+In this step, the following information is collected from the user and payment is made via UPI.
 
-![रजिस्ट्रेशन फॉर्म और पेमेंट स्क्रीन](images/Step1.jpg)
+![Registration Form and Payment Screen](images/Step1.jpg)
 
-**किए जाने वाले कार्य:**
-1.  **व्यक्तिगत जानकारी:** छात्र का नाम, मोबाइल नंबर और गुप्त पिन दर्ज करें।
-2.  **तिथि और शिफ्ट का चयन:** प्रारंभ तिथि, समाप्ति तिथि, महीना और पूरे दिन/आधे दिन की शिफ्ट चुनें।
-3.  **सीट और शुल्क:** सीट नंबर आवंटित किया जाता है। देय राशि का भुगतान करें (इस उदाहरण में ₹258)।
-4.  **भुगतान:** यूपीआई आईडी या क्यूआर कोड को स्कैन/टैप करके भुगतान करें।
-5.  **स्क्रीनशॉट अपलोड करें:** भुगतान की पुष्टि के लिए स्क्रीनशॉट अपलोड करें।
-6.  **प्रशासन को भेजें:** अंत में, "SEND TO ADMIN APPROVAL" बटन पर क्लिक करके स्वीकृति के लिए भेजें।
+**Tasks to be performed:**
+1.  **Personal Information:** Enter student name, mobile number, and secret pin.
+2.  **Date and Shift Selection:** Choose start date, end date, month, and full day/half day shift.
+3.  **Seat and Fee:** Seat number is allocated. Pay the due amount (₹258 in this example).
+4.  **Payment:** Scan/tap the UPI ID or QR Code to make payment.
+5.  **Upload Screenshot:** Upload payment screenshot for verification.
+6.  **Send for Admin Approval:** Finally, click the "SEND TO ADMIN APPROVAL" button to send for approval.
 
-### चरण 2: भुगतान पुष्टि और सीट सुनिश्चित करना
-भुगतान सफल होने और प्रशासन द्वारा स्वीकृत होने के बाद, यह सफलता पृष्ठ दिखाई देता है।
+### Step 2: Receiving Provisional Receipt
+While waiting for admin approval, a provisional receipt is generated. This receipt is a temporary confirmation of payment and registration.
 
-![भुगतन सफलता और पुष्टि पृष्ठ](images/Step2.jpg)
+[View Provisional Receipt PDF](images/Demon_Provisional_Receipt_copy.pdf)
 
-**इस पृष्ठ पर दी गई जानकारी और विकल्प:**
-1.  **सफलता संदेश:** "PAYMENT SUCCESSFUL" और "Seat Confirmed Successfully" का संदेश प्रदर्शित होता है।
-2.  **सीट विवरण:** पुष्टि सीट नंबर (409) दिखाया जाता है।
-3.  **अतिरिक्त ऑफ़र:** एक निःशुल्क परीक्षण सत्र बुक करने के लिए एक लिंक प्रदान किया जाता है।
-4.  **संपर्क और स्थान:**
-    *   **स्थान ढूंढें:** Google Maps में लाइब्रेरी का स्थान खोलने का लिंक।
-    *   **सहायता:** प्रतिक्रिया/मुद्दों/शिकायतों के लिए संपर्क विवरण (सुबह 8 बजे से रात 10 बजे तक)।
-    *   **व्हाट्सएप:** सीधे व्हाट्सएप पर संपर्क करने का विकल्प।
-5.  **वापसी लिंक:** "BACK TO REGISTRATION" बटन पर क्लिक करके मुख्य रजिस्ट्रेशन पृष्ठ पर वापस जा सकते हैं।
+**Key Information Included in Receipt:**
+*   **Receipt Number:** RR-20260112-0802
+*   **Student Details:** Name (Demon), Mobile Number, Address
+*   **Membership Period:** 12/01/2026 to 11/02/2026 (January Month)
+*   **Shift:** Full Day
+*   **Financial Summary:**
+    *   Total Amount: ₹133.00
+    *   Paid Amount: ₹123 (via Cash)
+    *   Due Amount: ₹10
+*   **Current Status:** Pending (Awaiting Administrative Approval)
 
-## 🗂️ फ़ोल्डर संरचना
-इस प्रोजेक्ट में इमेज फ़ाइलों को व्यवस्थित रखने के लिए नीचे दी गई फ़ोल्डर संरचना का पालन करें:
+**Important Notes:**
+*   Seat number is currently "Unassigned" and will be allocated later.
+*   This receipt is provisional and subject to admin approval.
+*   It is mandatory to carry this receipt and ID proof during library visits until confirmation.
+
+### Step 3: Payment Confirmation and Seat Assurance
+After successful payment and admin approval, this success page appears.
+
+![Payment Success and Confirmation Page](images/Step2.jpg)
+
+**Information and Options on this Page:**
+1.  **Success Message:** "PAYMENT SUCCESSFUL" and "Seat Confirmed Successfully" messages are displayed.
+2.  **Seat Details:** Confirmed seat number (409) is shown.
+3.  **Additional Offer:** A link is provided to book a free trial session.
+4.  **Contact and Location:**
+    *   **Find Location:** Link to open library location in Google Maps.
+    *   **Help & Support:** Contact details for feedback/issues/complaints (8 AM to 10 PM).
+    *   **WhatsApp:** Option to contact directly on WhatsApp.
+5.  **Return Link:** Click the "BACK TO REGISTRATION" button to return to the main registration page.
+
+## 🗂️ Folder Structure
+Follow the folder structure below to keep all files organized in this project:
