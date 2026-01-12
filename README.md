@@ -16,8 +16,22 @@ In this step, the following information is collected from the user and payment i
 4.  **Payment:** Scan/tap the UPI ID or QR Code to make payment.
 5.  **Upload Screenshot:** Upload payment screenshot for verification.
 6.  **Send for Admin Approval:** Finally, click the "SEND TO ADMIN APPROVAL" button to send for approval.
+### Step 3: Payment Confirmation and Seat Assurance
+After successful payment and admin approval, this success page appears.
 
-### Step 2: Receiving Provisional Receipt
+![Payment Success and Confirmation Page](images/Step2.jpg)
+
+**Information and Options on this Page:**
+1.  **Success Message:** "PAYMENT SUCCESSFUL" and "Seat Confirmed Successfully" messages are displayed.
+2.  **Seat Details:** Confirmed seat number (409) is shown.
+3.  **Additional Offer:** A link is provided to book a free trial session.
+4.  **Contact and Location:**
+    *   **Find Location:** Link to open library location in Google Maps.
+    *   **Help & Support:** Contact details for feedback/issues/complaints (8 AM to 10 PM).
+    *   **WhatsApp:** Option to contact directly on WhatsApp.
+5.  **Return Link:** Click the "BACK TO REGISTRATION" button to return to the main registration page.
+
+### Step 3: Receiving Provisional Receipt
 While waiting for admin approval, a provisional receipt is generated. This receipt is a temporary confirmation of payment and registration.
 
 [View Provisional Receipt PDF](images/Demon_Provisional_Receipt_copy.pdf)
@@ -38,20 +52,3 @@ While waiting for admin approval, a provisional receipt is generated. This recei
 *   This receipt is provisional and subject to admin approval.
 *   It is mandatory to carry this receipt and ID proof during library visits until confirmation.
 
-### Step 3: Payment Confirmation and Seat Assurance
-After successful payment and admin approval, this success page appears.
-
-![Payment Success and Confirmation Page](images/Step2.jpg)
-
-**Information and Options on this Page:**
-1.  **Success Message:** "PAYMENT SUCCESSFUL" and "Seat Confirmed Successfully" messages are displayed.
-2.  **Seat Details:** Confirmed seat number (409) is shown.
-3.  **Additional Offer:** A link is provided to book a free trial session.
-4.  **Contact and Location:**
-    *   **Find Location:** Link to open library location in Google Maps.
-    *   **Help & Support:** Contact details for feedback/issues/complaints (8 AM to 10 PM).
-    *   **WhatsApp:** Option to contact directly on WhatsApp.
-5.  **Return Link:** Click the "BACK TO REGISTRATION" button to return to the main registration page.
-
-## 🗂️ Folder Structure
-Follow the folder structure below to keep all files organized in this project:
