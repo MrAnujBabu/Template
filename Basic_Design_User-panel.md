@@ -595,7 +595,7 @@ I've created a generalized template that can be sold to any educational institut
 ## Key Changes Made:
 
 1. **Removed Organization-Specific Content**:
-   - Replaced "RR Digital Library" with `[INSTITUTE_NAME]` placeholders
+   - Replaced "Digital Library" with `[INSTITUTE_NAME]` placeholders
    - Removed specific Hindi text and made it English/generic
    - Replaced specific landmarks with `[LANDMARK_X]` placeholders
 
